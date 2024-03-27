@@ -1,0 +1,87 @@
+/* Morabba Font */
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Regular.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Regular.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Light.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Light.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Medium.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Medium.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-SemiBold.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-SemiBold.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Bold.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Bold.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-ExtraBold.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-ExtraBold.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Heavy.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Heavy.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Heavy.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Morabba;
+  src: url("../../public/assets/fonts/Morabba-Black.woff2") format("woff2"),
+    url("../../public/assets/fonts/Morabba-Black.woff") format("woff"),
+    url("../../public/assets/fonts/Morabba-Black.ttf") format("truetype");
+  font-weight: 950;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fcfcfc !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Morabba", sans-serif !important;
+}
